@@ -1,0 +1,201 @@
+/**Codigo CSS INDEX*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-color: #24252A;
+        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7 , 12, 0.75)) , url(../img/gymfondo.jpg);
+        background-size: cover;
+        backdrop-filter: blur(4px);
+        max-width: 100%;
+        max-height: 100%;
+        background-position: center;
+        }
+        
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: block;
+    text-align: center;
+    padding: 35px;
+    }
+
+ul li a{
+    margin: 10px;
+}
+
+.mainText{
+    min-height: 88.5vh;
+    z-index: 1;
+}
+.navBar{
+    list-style: none;
+    
+}
+
+.navBar li{
+    display:inline-block;
+    padding: 0px 20px;
+    }
+
+    .navBar li a{
+        transition: all 0.1s ease 0s;
+    }
+    
+    .navBar li a:hover {
+        color: #0088a9;
+    }
+
+
+.contenidoTexto1{
+    font-family: sintony, sans-serif;
+    text-align: center;
+    margin-top: 13rem;
+    color: #c6c9caee;
+    font-size: 2.7rem;
+    
+}
+.contenidoTexto2{
+    font-family: sintony, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    color: #c6c9ca;
+    font-size: 1.5rem;
+    
+}
+
+.boxText1{
+    background: linear-gradient(rgba(92, 0, 95, 0.3), rgba(131, 0 , 136, 0.3));
+    height: 4.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 16.8rem;
+    z-index: -1;
+    width: 25rem;
+    filter: blur(10px);
+    border-radius: 15px;
+}
+
+/*ACTIVIDADES CSS*/
+
+.actContainer{
+    background-color: aqua;
+    height: 47.4rem;
+}
+.boxAct{
+    background-color: rgba(36, 36, 36, 0.712);
+    height: 3rem;
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 3rem;
+    filter: blur(10px);
+}
+.act{
+    font-family: sintony, sans-serif;
+    color:azure;
+    text-align: center;
+    position: relative;
+    top: 0.6rem;
+}
+
+/*CAJAS ACTIVIDADES CSS*/
+
+.boxDiv{
+    width: 23rem;
+    height: 35rem;
+    margin-left: 10rem;
+    float: left;
+    position: relative;
+    top: 3rem;
+}
+
+.gymDiv{
+    background-color: rgb(68, 188, 188);
+    width: 23rem;
+    height: 35rem;
+    margin-left: 48rem;
+    float: center;
+    position: relative;
+    top: 3rem;
+}
+
+.spinningDiv{
+    background-color: rgb(255, 0, 149);
+    width: 23rem;
+    height: 35rem;
+    margin-left: 86rem;
+    position: absolute;
+    bottom: 9.45rem;
+    }
+
+
+/*IMAGENDES 3 DIV ACTIVIDADES*/
+
+.imgBox{
+    background-image: url(../img/boxeo.jpg);
+    width: 23rem;
+    height: 35rem;
+    background-size: cover;
+    background-position: -10rem;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    
+}
+
+
+/*IMAGENES DENTRO DE LAS 3 CAJAS ACTIVIDADES*/
+
+/*.boxDiv{
+    background-image: url(../img/boxeo.jpg);
+    background-size: cover;
+    background-position: -10rem;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.gymDiv{
+    background-image: url(../img/Screenshot_14.png);
+    background-size: cover;
+    background-position: -9rem;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.spinningDiv{
+    background-image: url(../img/spinning.jpg);
+    background-size: cover;
+    background-position: -4rem;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.imgBox{
+    background-image: url(../img/boxeo.jpg);
+    
+}
+*/
+
+/*FOOTER CSS*/
+
+.footerBox{
+    height: 5rem;
+    background-color: red;
+}
